@@ -9,7 +9,7 @@ features= {".//Features/AppLogin.feature"},
 glue= {"stepDef","hooks"},
 dryRun=false,
 monochrome=true,
-plugin= {"pretty","html:target/cucumber-reports.html"}
+plugin= {"pretty","json:target/cucumber-reports/Cucumber.json"}
 )
 
 
